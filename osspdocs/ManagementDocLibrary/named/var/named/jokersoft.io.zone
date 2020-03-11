@@ -1,0 +1,24 @@
+$TTL 3600
+$ORIGIN jokersoft.io.
+@		IN		SOA			jokersoft.io.		admin.jokersoft.io. (
+				2017011901
+				1H
+				10M
+				3D
+				1D)
+
+		IN		NS			www.jokersoft.com.
+		IN		MX		10	iredmail.jokersoft.com.
+www		IN		A			8.8.8.8
+portal		IN		A			8.8.8.8
+console		IN		A			8.8.8.8
+m		IN		A			8.8.8.8
+im		IN		A			8.8.8.8
+search		IN		A			8.8.8.8
+iredmail	IN		A			8.8.8.8
+ldapadmin	IN		A			8.8.8.8
+gogs		IN		A			8.8.8.8
+archiva		IN		A			8.8.8.8
+gerrit		IN		A			8.8.8.8
+redmine		IN		A			8.8.8.8
+jenkins		IN		A			8.8.8.8
